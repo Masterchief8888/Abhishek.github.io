@@ -1,6 +1,4 @@
 # Abhishek.github.io
-
-<!DOCTYPE html>
 <html>
   <head>
     <title>Capture The Flag Blog - Kandi Abhishek</title>
@@ -9,6 +7,7 @@
       body {
         font-family: Arial, sans-serif;
         background-color: #f1f1f1;
+        margin: 0;
       }
 
       #header {
@@ -20,6 +19,9 @@
 
       #header h1 {
         margin: 0;
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
       }
 
       #nav {
@@ -35,6 +37,10 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: background-color 0.3s ease;
       }
 
       #nav a:hover {
@@ -45,14 +51,20 @@
         background-color: white;
         padding: 20px;
         margin-top: 20px;
+        border: 1px solid #ccc;
       }
 
       #about h2 {
         margin-top: 0;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #333;
       }
 
       #about p {
         margin-bottom: 0;
+        line-height: 1.5;
       }
 
       #footer {
@@ -60,6 +72,12 @@
         color: white;
         padding: 20px;
         text-align: center;
+      }
+
+      #footer p {
+        margin: 0;
+        font-size: 14px;
+        letter-spacing: 1px;
       }
     </style>
   </head>
@@ -87,4 +105,7 @@
     </div>
   </body>
 </html>
+
+
+     
 

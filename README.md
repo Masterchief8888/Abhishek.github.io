@@ -1,4 +1,3 @@
-# Abhishek.github.io
 <html>
   <head>
     <title>Capture The Flag Blog - Kandi Abhishek</title>
